@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>نسجيل الدخول</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <link  href="style3.css" rel="stylesheet">
+        <link rel="icon" href="icon.icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <img src="logo-alex-en.webp" id="icon">
+            <form>
+                <input name="namearb" id="namearb" type="text" placeholder="اكتب الأسم بالعربى"required>
+                <label  for="namearb"> الأسم بالعربى </label><br><br>
+                <input name="nameeng" id="nameeng" type="text" placeholder="اكتب الاسم بالأنجليزى" required>
+                <label  for="nameeng"> الأسم بالأنجليزى  </label><br><br>
+
+                <input name="e-mail" id="e-mail" type="email" placeholder="اكتب الأيميل الجامعى" required>
+                <label for ="e-mail">الأيميل الجامعى </lable><br><br>
+                <input name="pass1" id="pass1" type="password" placeholder="اكتب كلمة السر" required>
+                <label for="pass1">كلمة السر</label><br><br>
+                <input name="pass2" id="pass2" type="password" placeholder="كلمة السر مره اخرى" required>
+                <label for="pass2"> اعادة تعين كلمة السر</label><br><br>
+                <input name="natid" id="natid" type="text" placeholder="اكتب رقم البطاقة" required>
+                <label  for="natid">  رقم البطاقة </label><br><br>
+                <input name="univ" id="univ" type="text" placeholder="جامعة الاسكندرية" disabled>
+                <label  for="univ">  الجامعة </label><br><br>
+                <input name="uid" id="uid" type="text" placeholder="اكتب رقم البطاقة" required>
+                <label  for="uid">  الرقم الجامعى </label><br><br>
+
+                <input name="male" id="male" type="radio">
+                <label for="male">ذكر</label>
+                <input name="fmale" id="fmale" type="radio">
+                <label for="fmale">أنثى</label><br><br>
+                <input list="college" required>
+                <label for="college">اختر كليتك</label>
+                <datalist id="college">
+                    <option>الهندسة</option>
+                    <option selected>الحاسبات وعلوم البيانات</option>
+                    <option>العلوم</option>
+                    <option>التجارة</option>
+                    <option>الأداب</option>
+                    <option>الحقوق</option>
+                    <option>الاقتصاد والعلوم السياسية</option>
+                    <option>التربية</option>
+                    <option>الفنون الجميلة</option>
+                    <option>السياحة والفنادق</option>
+                    <option>التمريض </option>
+                    <option>طب بشري</option>
+                    <option>صيدلة</option>
+                    <option>طب اسنان</option>
+                </datalist><br><br>
+                <input type="submit" value="تسجيل">
+            </form>
+        </div>
+    </body>
+</html>

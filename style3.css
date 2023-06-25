@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    background-image: url('headerbig_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+#icon{
+    width: 300px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+#container{
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 420px;
+    margin-left: 450px;
+    margin-top: 5px;
+    border-radius: 30px;
+}
+form{
+    margin-left: 70px;
+    padding-bottom: 8px;
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-right: 5px;
+}
+input[type=submit]{
+    margin-left: 70px;
+    width: 100px;
+    height: 30px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input[type=radio]{
+    margin-left: 50px;
+}
+label{
+    color: navy;
+}

@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+header nav ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+header nav ul li a{
+    color: navy;
+    text-decoration: none;
+    font-size: 15pt;
+
+}
+#search{
+    width: 220px;
+    margin-right: 500px;
+    height: 20px;
+    margin-top: 11px;
+    text-align: center;
+    text-indent: 10px;
+    margin-left: 5px;
+    border: solid 1px navy;
+}
+#searchicon{
+    color: white;
+}
+button[type=submit]{
+    border: none;
+    background-color: navy;    
+    margin-left: 40px;
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+#section1{
+    width: 100%;
+    height: 607px;
+    padding-top: 50px;
+    background-image: url('headerbig_1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    transition-duration: 4s;
+}
+#section1:hover{
+    width: 100%;
+    height: 607px;
+    background-image: url('headerbig_14.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+#icon{
+    height: 200px;
+    width: 350px;
+    object-fit: cover;
+    margin-left: 500px;
+}
+#links{
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.863);
+
+}
+#section1 #links ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 5px;
+}
+#section1 #links ul li a{
+    text-decoration: none;
+    color: navy;
+    font-size: 20px;
+}
+#section1 #links ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+#section2 h1,#section3 h1{
+    color: white;
+    background-color: navy;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 470px;
+}
+#section2 article p{
+    font-size: 13pt;
+}
+#section2 .articl{
+    background-color: whitesmoke;
+    padding-right: 20px;
+    width: 600px;
+    height: 230px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#section2 article h2{
+    text-align: center;
+}
+#section2 #exceptarticle{
+    padding-top: 10px;
+    background-color: rgba(245, 245, 245, 0.692);
+    padding-right: 20px;
+    width: 600px;
+    height: 110px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.part{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.presidents{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.presidentsnames{
+    font-size: 15pt;
+    padding-top: 20px;
+}
+footer  a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 88);
+}
+footer .box{
+    width: 300px;
+    padding-top: 20px;
+}
+footer  .box h2{
+    text-align: center;
+
+}
+footer p, footer h2{
+    color: white;
+}
+
+#footerlogo{
+    padding-left: 30px;
+}
+footer .box p{
+    margin-right: 80px;
+}
